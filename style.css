@@ -1,0 +1,90 @@
+.menu{
+
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-family:initial;
+    font-weight: 400;
+    color: rgb(0, 255, 115);
+    padding: 20px;
+
+}
+
+.grid{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+body{
+
+    background-color: #5f04;
+    
+}
+
+.origami{
+
+    border: 2px solid #00f3f2;
+    border-radius: 20px;
+    width: 310px;
+    font-family: sans-serif;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5%;
+    padding: 20px;
+    background-color: #7c2e4a;
+
+}
+
+.origami:hover{
+
+    transform: scale(1.05);
+    background-color: #7c2e9b;
+    border: 2px solid #00f900;
+
+}
+
+.bodyImg{
+
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 120%;
+
+}
+
+.text{
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+
+}
+
+a:link{
+    color: whitesmoke;
+}
+
+a:visited{
+    color: thistle;
+}
+
+a:active{
+    color: tomato;
+} 
+
+a{
+
+    text-decoration: none;
+
+}
